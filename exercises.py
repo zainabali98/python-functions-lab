@@ -30,5 +30,14 @@ print('Exercise 1:', calculate_area_triangle(10, 5))
 # Define your function and call it to display the discounted price.
 
 
+def apply_discount(price, discount_percentage):
+    discount = price * (discount_percentage / 100)
+    final_price = price - discount
+    return final_price
+
+#print(apply_discount(100, 25))  # 75.0
+#print(apply_discount(80, 10))   # 72.0
 
 print('Exercise 2:', apply_discount(100, 25))
+
+
